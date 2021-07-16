@@ -12,7 +12,7 @@ function App() {
 
   // Main function
   const runCoco = async () => {
-    // 3. TODO - Load network 
+    // Load network 
     // e.g. const net = await cocossd.load();
     const net = await cocossd.load();
 
@@ -42,14 +42,14 @@ function App() {
       canvasRef.current.width = videoWidth;
       canvasRef.current.height = videoHeight;
 
-      // 4. TODO - Make Detections
+      // Make Detections
       // e.g. const obj = await net.detect(video);
       const obj = await net.detect(video);
       console.log(obj);
       // Draw mesh
       const ctx = canvasRef.current.getContext("2d");
 
-      // 5. TODO - Update drawing utility
+      // Update drawing utility
       // drawSomething(obj, ctx)
       drawRect(obj, ctx);
     }
