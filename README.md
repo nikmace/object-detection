@@ -1,7 +1,5 @@
 # TensorFlow Object-detection React Application
 
-<img width="1792" alt="Screenshot 2021-07-16 at 13 47 01" src="https://user-images.githubusercontent.com/39880364/125936423-56da5b42-8f03-4923-960b-35316f5795a2.png">
-
 A web application made with React JS.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/nikmace/object-detection)
